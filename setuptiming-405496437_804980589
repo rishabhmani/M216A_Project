@@ -1,0 +1,628 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nworst 2
+        -max_paths 10
+Design : Image_Classifier
+Version: G-2012.06-SP1
+Date   : Thu Dec  2 00:32:08 2021
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: ss0p95v125c   Library: saed32rvt_ss0p95v125c
+Wire Load Model Mode: enclosed
+
+  Startpoint: R_1074 (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: neuron_1/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][25]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   1000000               saed32rvt_tt1p05v25c
+  Image_Classifier_DW_mult_tc_143
+                     8000                  saed32rvt_tt1p05v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  R_1074/CLK (DFFARX1_RVT)                                0.00 #     0.00 r
+  R_1074/Q (DFFARX1_RVT)                                  0.09       0.09 f
+  U107826/Y (OR4X1_RVT)                                   0.10       0.19 f
+  mult_x_364/a[5] (Image_Classifier_DW_mult_tc_143)       0.00       0.19 f
+  mult_x_364/U332/Y (AND2X1_RVT)                          0.04       0.24 f
+  mult_x_364/U101/SO (HADDX1_RVT)                         0.06       0.29 r
+  mult_x_364/U99/S (FADDX1_RVT)                           0.08       0.38 f
+  mult_x_364/U98/S (FADDX1_RVT)                           0.09       0.46 r
+  mult_x_364/U18/CO (FADDX1_RVT)                          0.06       0.52 r
+  mult_x_364/U17/CO (FADDX1_RVT)                          0.05       0.57 r
+  mult_x_364/U16/CO (FADDX1_RVT)                          0.05       0.63 r
+  mult_x_364/U15/CO (FADDX1_RVT)                          0.05       0.68 r
+  mult_x_364/U14/CO (FADDX1_RVT)                          0.05       0.74 r
+  mult_x_364/U13/CO (FADDX1_RVT)                          0.05       0.79 r
+  mult_x_364/U12/CO (FADDX1_RVT)                          0.05       0.84 r
+  mult_x_364/U11/CO (FADDX1_RVT)                          0.05       0.90 r
+  mult_x_364/U10/CO (FADDX1_RVT)                          0.05       0.95 r
+  mult_x_364/U9/CO (FADDX1_RVT)                           0.05       1.01 r
+  mult_x_364/U8/CO (FADDX1_RVT)                           0.05       1.06 r
+  mult_x_364/U7/CO (FADDX1_RVT)                           0.05       1.12 r
+  mult_x_364/U6/CO (FADDX1_RVT)                           0.05       1.17 r
+  mult_x_364/U5/CO (FADDX1_RVT)                           0.05       1.22 r
+  mult_x_364/U4/CO (FADDX1_RVT)                           0.05       1.28 r
+  mult_x_364/U3/CO (FADDX1_RVT)                           0.06       1.34 r
+  mult_x_364/U255/S (FADDX1_RVT)                          0.08       1.42 f
+  mult_x_364/product[25] (Image_Classifier_DW_mult_tc_143)
+                                                          0.00       1.42 f
+  neuron_1/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][25]/D (DFFARX1_RVT)
+                                                          0.00       1.42 f
+  data arrival time                                                  1.42
+
+  clock clk (rise edge)                                   2.00       2.00
+  clock network delay (ideal)                             0.00       2.00
+  clock uncertainty                                      -0.10       1.90
+  neuron_1/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][25]/CLK (DFFARX1_RVT)
+                                                          0.00       1.90 r
+  library setup time                                     -0.03       1.87
+  data required time                                                 1.87
+  --------------------------------------------------------------------------
+  data required time                                                 1.87
+  data arrival time                                                 -1.42
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.46
+
+
+  Startpoint: R_1046 (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: neuron_2/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][25]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   1000000               saed32rvt_tt1p05v25c
+  Image_Classifier_DW_mult_tc_127
+                     8000                  saed32rvt_tt1p05v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  R_1046/CLK (DFFARX1_RVT)                                0.00 #     0.00 r
+  R_1046/Q (DFFARX1_RVT)                                  0.09       0.09 f
+  U97467/Y (OR4X1_RVT)                                    0.10       0.19 f
+  mult_x_380/a[5] (Image_Classifier_DW_mult_tc_127)       0.00       0.19 f
+  mult_x_380/U332/Y (AND2X1_RVT)                          0.04       0.24 f
+  mult_x_380/U101/SO (HADDX1_RVT)                         0.06       0.29 r
+  mult_x_380/U99/S (FADDX1_RVT)                           0.08       0.38 f
+  mult_x_380/U98/S (FADDX1_RVT)                           0.09       0.46 r
+  mult_x_380/U18/CO (FADDX1_RVT)                          0.06       0.52 r
+  mult_x_380/U17/CO (FADDX1_RVT)                          0.05       0.57 r
+  mult_x_380/U16/CO (FADDX1_RVT)                          0.05       0.63 r
+  mult_x_380/U15/CO (FADDX1_RVT)                          0.05       0.68 r
+  mult_x_380/U14/CO (FADDX1_RVT)                          0.05       0.74 r
+  mult_x_380/U13/CO (FADDX1_RVT)                          0.05       0.79 r
+  mult_x_380/U12/CO (FADDX1_RVT)                          0.05       0.84 r
+  mult_x_380/U11/CO (FADDX1_RVT)                          0.05       0.90 r
+  mult_x_380/U10/CO (FADDX1_RVT)                          0.05       0.95 r
+  mult_x_380/U9/CO (FADDX1_RVT)                           0.05       1.01 r
+  mult_x_380/U8/CO (FADDX1_RVT)                           0.05       1.06 r
+  mult_x_380/U7/CO (FADDX1_RVT)                           0.05       1.12 r
+  mult_x_380/U6/CO (FADDX1_RVT)                           0.05       1.17 r
+  mult_x_380/U5/CO (FADDX1_RVT)                           0.05       1.22 r
+  mult_x_380/U4/CO (FADDX1_RVT)                           0.05       1.28 r
+  mult_x_380/U3/CO (FADDX1_RVT)                           0.06       1.34 r
+  mult_x_380/U255/S (FADDX1_RVT)                          0.08       1.42 f
+  mult_x_380/product[25] (Image_Classifier_DW_mult_tc_127)
+                                                          0.00       1.42 f
+  neuron_2/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][25]/D (DFFARX1_RVT)
+                                                          0.00       1.42 f
+  data arrival time                                                  1.42
+
+  clock clk (rise edge)                                   2.00       2.00
+  clock network delay (ideal)                             0.00       2.00
+  clock uncertainty                                      -0.10       1.90
+  neuron_2/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][25]/CLK (DFFARX1_RVT)
+                                                          0.00       1.90 r
+  library setup time                                     -0.03       1.87
+  data required time                                                 1.87
+  --------------------------------------------------------------------------
+  data required time                                                 1.87
+  data arrival time                                                 -1.42
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.46
+
+
+  Startpoint: R_1018 (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: neuron_3/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][25]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   1000000               saed32rvt_tt1p05v25c
+  Image_Classifier_DW_mult_tc_111
+                     8000                  saed32rvt_tt1p05v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  R_1018/CLK (DFFARX1_RVT)                                0.00 #     0.00 r
+  R_1018/Q (DFFARX1_RVT)                                  0.09       0.09 f
+  U87108/Y (OR4X1_RVT)                                    0.10       0.19 f
+  mult_x_396/a[5] (Image_Classifier_DW_mult_tc_111)       0.00       0.19 f
+  mult_x_396/U332/Y (AND2X1_RVT)                          0.04       0.24 f
+  mult_x_396/U101/SO (HADDX1_RVT)                         0.06       0.29 r
+  mult_x_396/U99/S (FADDX1_RVT)                           0.08       0.38 f
+  mult_x_396/U98/S (FADDX1_RVT)                           0.09       0.46 r
+  mult_x_396/U18/CO (FADDX1_RVT)                          0.06       0.52 r
+  mult_x_396/U17/CO (FADDX1_RVT)                          0.05       0.57 r
+  mult_x_396/U16/CO (FADDX1_RVT)                          0.05       0.63 r
+  mult_x_396/U15/CO (FADDX1_RVT)                          0.05       0.68 r
+  mult_x_396/U14/CO (FADDX1_RVT)                          0.05       0.74 r
+  mult_x_396/U13/CO (FADDX1_RVT)                          0.05       0.79 r
+  mult_x_396/U12/CO (FADDX1_RVT)                          0.05       0.84 r
+  mult_x_396/U11/CO (FADDX1_RVT)                          0.05       0.90 r
+  mult_x_396/U10/CO (FADDX1_RVT)                          0.05       0.95 r
+  mult_x_396/U9/CO (FADDX1_RVT)                           0.05       1.01 r
+  mult_x_396/U8/CO (FADDX1_RVT)                           0.05       1.06 r
+  mult_x_396/U7/CO (FADDX1_RVT)                           0.05       1.12 r
+  mult_x_396/U6/CO (FADDX1_RVT)                           0.05       1.17 r
+  mult_x_396/U5/CO (FADDX1_RVT)                           0.05       1.22 r
+  mult_x_396/U4/CO (FADDX1_RVT)                           0.05       1.28 r
+  mult_x_396/U3/CO (FADDX1_RVT)                           0.06       1.34 r
+  mult_x_396/U255/S (FADDX1_RVT)                          0.08       1.42 f
+  mult_x_396/product[25] (Image_Classifier_DW_mult_tc_111)
+                                                          0.00       1.42 f
+  neuron_3/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][25]/D (DFFARX1_RVT)
+                                                          0.00       1.42 f
+  data arrival time                                                  1.42
+
+  clock clk (rise edge)                                   2.00       2.00
+  clock network delay (ideal)                             0.00       2.00
+  clock uncertainty                                      -0.10       1.90
+  neuron_3/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][25]/CLK (DFFARX1_RVT)
+                                                          0.00       1.90 r
+  library setup time                                     -0.03       1.87
+  data required time                                                 1.87
+  --------------------------------------------------------------------------
+  data required time                                                 1.87
+  data arrival time                                                 -1.42
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.46
+
+
+  Startpoint: R_990 (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: neuron_4/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][25]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   1000000               saed32rvt_tt1p05v25c
+  Image_Classifier_DW_mult_tc_95
+                     8000                  saed32rvt_tt1p05v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  R_990/CLK (DFFARX1_RVT)                                 0.00 #     0.00 r
+  R_990/Q (DFFARX1_RVT)                                   0.09       0.09 f
+  U76749/Y (OR4X1_RVT)                                    0.10       0.19 f
+  mult_x_412/a[5] (Image_Classifier_DW_mult_tc_95)        0.00       0.19 f
+  mult_x_412/U332/Y (AND2X1_RVT)                          0.04       0.24 f
+  mult_x_412/U101/SO (HADDX1_RVT)                         0.06       0.29 r
+  mult_x_412/U99/S (FADDX1_RVT)                           0.08       0.38 f
+  mult_x_412/U98/S (FADDX1_RVT)                           0.09       0.46 r
+  mult_x_412/U18/CO (FADDX1_RVT)                          0.06       0.52 r
+  mult_x_412/U17/CO (FADDX1_RVT)                          0.05       0.57 r
+  mult_x_412/U16/CO (FADDX1_RVT)                          0.05       0.63 r
+  mult_x_412/U15/CO (FADDX1_RVT)                          0.05       0.68 r
+  mult_x_412/U14/CO (FADDX1_RVT)                          0.05       0.74 r
+  mult_x_412/U13/CO (FADDX1_RVT)                          0.05       0.79 r
+  mult_x_412/U12/CO (FADDX1_RVT)                          0.05       0.84 r
+  mult_x_412/U11/CO (FADDX1_RVT)                          0.05       0.90 r
+  mult_x_412/U10/CO (FADDX1_RVT)                          0.05       0.95 r
+  mult_x_412/U9/CO (FADDX1_RVT)                           0.05       1.01 r
+  mult_x_412/U8/CO (FADDX1_RVT)                           0.05       1.06 r
+  mult_x_412/U7/CO (FADDX1_RVT)                           0.05       1.12 r
+  mult_x_412/U6/CO (FADDX1_RVT)                           0.05       1.17 r
+  mult_x_412/U5/CO (FADDX1_RVT)                           0.05       1.22 r
+  mult_x_412/U4/CO (FADDX1_RVT)                           0.05       1.28 r
+  mult_x_412/U3/CO (FADDX1_RVT)                           0.06       1.34 r
+  mult_x_412/U255/S (FADDX1_RVT)                          0.08       1.42 f
+  mult_x_412/product[25] (Image_Classifier_DW_mult_tc_95)
+                                                          0.00       1.42 f
+  neuron_4/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][25]/D (DFFARX1_RVT)
+                                                          0.00       1.42 f
+  data arrival time                                                  1.42
+
+  clock clk (rise edge)                                   2.00       2.00
+  clock network delay (ideal)                             0.00       2.00
+  clock uncertainty                                      -0.10       1.90
+  neuron_4/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][25]/CLK (DFFARX1_RVT)
+                                                          0.00       1.90 r
+  library setup time                                     -0.03       1.87
+  data required time                                                 1.87
+  --------------------------------------------------------------------------
+  data required time                                                 1.87
+  data arrival time                                                 -1.42
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.46
+
+
+  Startpoint: R_962 (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: neuron_5/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][25]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   1000000               saed32rvt_tt1p05v25c
+  Image_Classifier_DW_mult_tc_79
+                     8000                  saed32rvt_tt1p05v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  R_962/CLK (DFFARX1_RVT)                                 0.00 #     0.00 r
+  R_962/Q (DFFARX1_RVT)                                   0.09       0.09 f
+  U66390/Y (OR4X1_RVT)                                    0.10       0.19 f
+  mult_x_428/a[5] (Image_Classifier_DW_mult_tc_79)        0.00       0.19 f
+  mult_x_428/U332/Y (AND2X1_RVT)                          0.04       0.24 f
+  mult_x_428/U101/SO (HADDX1_RVT)                         0.06       0.29 r
+  mult_x_428/U99/S (FADDX1_RVT)                           0.08       0.38 f
+  mult_x_428/U98/S (FADDX1_RVT)                           0.09       0.46 r
+  mult_x_428/U18/CO (FADDX1_RVT)                          0.06       0.52 r
+  mult_x_428/U17/CO (FADDX1_RVT)                          0.05       0.57 r
+  mult_x_428/U16/CO (FADDX1_RVT)                          0.05       0.63 r
+  mult_x_428/U15/CO (FADDX1_RVT)                          0.05       0.68 r
+  mult_x_428/U14/CO (FADDX1_RVT)                          0.05       0.74 r
+  mult_x_428/U13/CO (FADDX1_RVT)                          0.05       0.79 r
+  mult_x_428/U12/CO (FADDX1_RVT)                          0.05       0.84 r
+  mult_x_428/U11/CO (FADDX1_RVT)                          0.05       0.90 r
+  mult_x_428/U10/CO (FADDX1_RVT)                          0.05       0.95 r
+  mult_x_428/U9/CO (FADDX1_RVT)                           0.05       1.01 r
+  mult_x_428/U8/CO (FADDX1_RVT)                           0.05       1.06 r
+  mult_x_428/U7/CO (FADDX1_RVT)                           0.05       1.12 r
+  mult_x_428/U6/CO (FADDX1_RVT)                           0.05       1.17 r
+  mult_x_428/U5/CO (FADDX1_RVT)                           0.05       1.22 r
+  mult_x_428/U4/CO (FADDX1_RVT)                           0.05       1.28 r
+  mult_x_428/U3/CO (FADDX1_RVT)                           0.06       1.34 r
+  mult_x_428/U255/S (FADDX1_RVT)                          0.08       1.42 f
+  mult_x_428/product[25] (Image_Classifier_DW_mult_tc_79)
+                                                          0.00       1.42 f
+  neuron_5/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][25]/D (DFFARX1_RVT)
+                                                          0.00       1.42 f
+  data arrival time                                                  1.42
+
+  clock clk (rise edge)                                   2.00       2.00
+  clock network delay (ideal)                             0.00       2.00
+  clock uncertainty                                      -0.10       1.90
+  neuron_5/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][25]/CLK (DFFARX1_RVT)
+                                                          0.00       1.90 r
+  library setup time                                     -0.03       1.87
+  data required time                                                 1.87
+  --------------------------------------------------------------------------
+  data required time                                                 1.87
+  data arrival time                                                 -1.42
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.46
+
+
+  Startpoint: R_934 (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: neuron_6/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][25]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   1000000               saed32rvt_tt1p05v25c
+  Image_Classifier_DW_mult_tc_63
+                     8000                  saed32rvt_tt1p05v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  R_934/CLK (DFFARX1_RVT)                                 0.00 #     0.00 r
+  R_934/Q (DFFARX1_RVT)                                   0.09       0.09 f
+  U56031/Y (OR4X1_RVT)                                    0.10       0.19 f
+  mult_x_444/a[5] (Image_Classifier_DW_mult_tc_63)        0.00       0.19 f
+  mult_x_444/U332/Y (AND2X1_RVT)                          0.04       0.24 f
+  mult_x_444/U101/SO (HADDX1_RVT)                         0.06       0.29 r
+  mult_x_444/U99/S (FADDX1_RVT)                           0.08       0.38 f
+  mult_x_444/U98/S (FADDX1_RVT)                           0.09       0.46 r
+  mult_x_444/U18/CO (FADDX1_RVT)                          0.06       0.52 r
+  mult_x_444/U17/CO (FADDX1_RVT)                          0.05       0.57 r
+  mult_x_444/U16/CO (FADDX1_RVT)                          0.05       0.63 r
+  mult_x_444/U15/CO (FADDX1_RVT)                          0.05       0.68 r
+  mult_x_444/U14/CO (FADDX1_RVT)                          0.05       0.74 r
+  mult_x_444/U13/CO (FADDX1_RVT)                          0.05       0.79 r
+  mult_x_444/U12/CO (FADDX1_RVT)                          0.05       0.84 r
+  mult_x_444/U11/CO (FADDX1_RVT)                          0.05       0.90 r
+  mult_x_444/U10/CO (FADDX1_RVT)                          0.05       0.95 r
+  mult_x_444/U9/CO (FADDX1_RVT)                           0.05       1.01 r
+  mult_x_444/U8/CO (FADDX1_RVT)                           0.05       1.06 r
+  mult_x_444/U7/CO (FADDX1_RVT)                           0.05       1.12 r
+  mult_x_444/U6/CO (FADDX1_RVT)                           0.05       1.17 r
+  mult_x_444/U5/CO (FADDX1_RVT)                           0.05       1.22 r
+  mult_x_444/U4/CO (FADDX1_RVT)                           0.05       1.28 r
+  mult_x_444/U3/CO (FADDX1_RVT)                           0.06       1.34 r
+  mult_x_444/U255/S (FADDX1_RVT)                          0.08       1.42 f
+  mult_x_444/product[25] (Image_Classifier_DW_mult_tc_63)
+                                                          0.00       1.42 f
+  neuron_6/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][25]/D (DFFARX1_RVT)
+                                                          0.00       1.42 f
+  data arrival time                                                  1.42
+
+  clock clk (rise edge)                                   2.00       2.00
+  clock network delay (ideal)                             0.00       2.00
+  clock uncertainty                                      -0.10       1.90
+  neuron_6/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][25]/CLK (DFFARX1_RVT)
+                                                          0.00       1.90 r
+  library setup time                                     -0.03       1.87
+  data required time                                                 1.87
+  --------------------------------------------------------------------------
+  data required time                                                 1.87
+  data arrival time                                                 -1.42
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.46
+
+
+  Startpoint: R_906 (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: neuron_7/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][25]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   1000000               saed32rvt_tt1p05v25c
+  Image_Classifier_DW_mult_tc_47
+                     8000                  saed32rvt_tt1p05v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  R_906/CLK (DFFARX1_RVT)                                 0.00 #     0.00 r
+  R_906/Q (DFFARX1_RVT)                                   0.09       0.09 f
+  U45672/Y (OR4X1_RVT)                                    0.10       0.19 f
+  mult_x_460/a[5] (Image_Classifier_DW_mult_tc_47)        0.00       0.19 f
+  mult_x_460/U332/Y (AND2X1_RVT)                          0.04       0.24 f
+  mult_x_460/U101/SO (HADDX1_RVT)                         0.06       0.29 r
+  mult_x_460/U99/S (FADDX1_RVT)                           0.08       0.38 f
+  mult_x_460/U98/S (FADDX1_RVT)                           0.09       0.46 r
+  mult_x_460/U18/CO (FADDX1_RVT)                          0.06       0.52 r
+  mult_x_460/U17/CO (FADDX1_RVT)                          0.05       0.57 r
+  mult_x_460/U16/CO (FADDX1_RVT)                          0.05       0.63 r
+  mult_x_460/U15/CO (FADDX1_RVT)                          0.05       0.68 r
+  mult_x_460/U14/CO (FADDX1_RVT)                          0.05       0.74 r
+  mult_x_460/U13/CO (FADDX1_RVT)                          0.05       0.79 r
+  mult_x_460/U12/CO (FADDX1_RVT)                          0.05       0.84 r
+  mult_x_460/U11/CO (FADDX1_RVT)                          0.05       0.90 r
+  mult_x_460/U10/CO (FADDX1_RVT)                          0.05       0.95 r
+  mult_x_460/U9/CO (FADDX1_RVT)                           0.05       1.01 r
+  mult_x_460/U8/CO (FADDX1_RVT)                           0.05       1.06 r
+  mult_x_460/U7/CO (FADDX1_RVT)                           0.05       1.12 r
+  mult_x_460/U6/CO (FADDX1_RVT)                           0.05       1.17 r
+  mult_x_460/U5/CO (FADDX1_RVT)                           0.05       1.22 r
+  mult_x_460/U4/CO (FADDX1_RVT)                           0.05       1.28 r
+  mult_x_460/U3/CO (FADDX1_RVT)                           0.06       1.34 r
+  mult_x_460/U255/S (FADDX1_RVT)                          0.08       1.42 f
+  mult_x_460/product[25] (Image_Classifier_DW_mult_tc_47)
+                                                          0.00       1.42 f
+  neuron_7/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][25]/D (DFFARX1_RVT)
+                                                          0.00       1.42 f
+  data arrival time                                                  1.42
+
+  clock clk (rise edge)                                   2.00       2.00
+  clock network delay (ideal)                             0.00       2.00
+  clock uncertainty                                      -0.10       1.90
+  neuron_7/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][25]/CLK (DFFARX1_RVT)
+                                                          0.00       1.90 r
+  library setup time                                     -0.03       1.87
+  data required time                                                 1.87
+  --------------------------------------------------------------------------
+  data required time                                                 1.87
+  data arrival time                                                 -1.42
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.46
+
+
+  Startpoint: R_878 (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: neuron_8/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][25]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   1000000               saed32rvt_tt1p05v25c
+  Image_Classifier_DW_mult_tc_31
+                     8000                  saed32rvt_tt1p05v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  R_878/CLK (DFFARX1_RVT)                                 0.00 #     0.00 r
+  R_878/Q (DFFARX1_RVT)                                   0.09       0.09 f
+  U35313/Y (OR4X1_RVT)                                    0.10       0.19 f
+  mult_x_476/a[5] (Image_Classifier_DW_mult_tc_31)        0.00       0.19 f
+  mult_x_476/U332/Y (AND2X1_RVT)                          0.04       0.24 f
+  mult_x_476/U101/SO (HADDX1_RVT)                         0.06       0.29 r
+  mult_x_476/U99/S (FADDX1_RVT)                           0.08       0.38 f
+  mult_x_476/U98/S (FADDX1_RVT)                           0.09       0.46 r
+  mult_x_476/U18/CO (FADDX1_RVT)                          0.06       0.52 r
+  mult_x_476/U17/CO (FADDX1_RVT)                          0.05       0.57 r
+  mult_x_476/U16/CO (FADDX1_RVT)                          0.05       0.63 r
+  mult_x_476/U15/CO (FADDX1_RVT)                          0.05       0.68 r
+  mult_x_476/U14/CO (FADDX1_RVT)                          0.05       0.74 r
+  mult_x_476/U13/CO (FADDX1_RVT)                          0.05       0.79 r
+  mult_x_476/U12/CO (FADDX1_RVT)                          0.05       0.84 r
+  mult_x_476/U11/CO (FADDX1_RVT)                          0.05       0.90 r
+  mult_x_476/U10/CO (FADDX1_RVT)                          0.05       0.95 r
+  mult_x_476/U9/CO (FADDX1_RVT)                           0.05       1.01 r
+  mult_x_476/U8/CO (FADDX1_RVT)                           0.05       1.06 r
+  mult_x_476/U7/CO (FADDX1_RVT)                           0.05       1.12 r
+  mult_x_476/U6/CO (FADDX1_RVT)                           0.05       1.17 r
+  mult_x_476/U5/CO (FADDX1_RVT)                           0.05       1.22 r
+  mult_x_476/U4/CO (FADDX1_RVT)                           0.05       1.28 r
+  mult_x_476/U3/CO (FADDX1_RVT)                           0.06       1.34 r
+  mult_x_476/U255/S (FADDX1_RVT)                          0.08       1.42 f
+  mult_x_476/product[25] (Image_Classifier_DW_mult_tc_31)
+                                                          0.00       1.42 f
+  neuron_8/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][25]/D (DFFARX1_RVT)
+                                                          0.00       1.42 f
+  data arrival time                                                  1.42
+
+  clock clk (rise edge)                                   2.00       2.00
+  clock network delay (ideal)                             0.00       2.00
+  clock uncertainty                                      -0.10       1.90
+  neuron_8/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][25]/CLK (DFFARX1_RVT)
+                                                          0.00       1.90 r
+  library setup time                                     -0.03       1.87
+  data required time                                                 1.87
+  --------------------------------------------------------------------------
+  data required time                                                 1.87
+  data arrival time                                                 -1.42
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.46
+
+
+  Startpoint: R_850 (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: neuron_9/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][25]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   1000000               saed32rvt_tt1p05v25c
+  Image_Classifier_DW_mult_tc_15
+                     8000                  saed32rvt_tt1p05v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  R_850/CLK (DFFARX1_RVT)                                 0.00 #     0.00 r
+  R_850/Q (DFFARX1_RVT)                                   0.09       0.09 f
+  U24954/Y (OR4X1_RVT)                                    0.10       0.19 f
+  mult_x_492/a[5] (Image_Classifier_DW_mult_tc_15)        0.00       0.19 f
+  mult_x_492/U332/Y (AND2X1_RVT)                          0.04       0.24 f
+  mult_x_492/U101/SO (HADDX1_RVT)                         0.06       0.29 r
+  mult_x_492/U99/S (FADDX1_RVT)                           0.08       0.38 f
+  mult_x_492/U98/S (FADDX1_RVT)                           0.09       0.46 r
+  mult_x_492/U18/CO (FADDX1_RVT)                          0.06       0.52 r
+  mult_x_492/U17/CO (FADDX1_RVT)                          0.05       0.57 r
+  mult_x_492/U16/CO (FADDX1_RVT)                          0.05       0.63 r
+  mult_x_492/U15/CO (FADDX1_RVT)                          0.05       0.68 r
+  mult_x_492/U14/CO (FADDX1_RVT)                          0.05       0.74 r
+  mult_x_492/U13/CO (FADDX1_RVT)                          0.05       0.79 r
+  mult_x_492/U12/CO (FADDX1_RVT)                          0.05       0.84 r
+  mult_x_492/U11/CO (FADDX1_RVT)                          0.05       0.90 r
+  mult_x_492/U10/CO (FADDX1_RVT)                          0.05       0.95 r
+  mult_x_492/U9/CO (FADDX1_RVT)                           0.05       1.01 r
+  mult_x_492/U8/CO (FADDX1_RVT)                           0.05       1.06 r
+  mult_x_492/U7/CO (FADDX1_RVT)                           0.05       1.12 r
+  mult_x_492/U6/CO (FADDX1_RVT)                           0.05       1.17 r
+  mult_x_492/U5/CO (FADDX1_RVT)                           0.05       1.22 r
+  mult_x_492/U4/CO (FADDX1_RVT)                           0.05       1.28 r
+  mult_x_492/U3/CO (FADDX1_RVT)                           0.06       1.34 r
+  mult_x_492/U255/S (FADDX1_RVT)                          0.08       1.42 f
+  mult_x_492/product[25] (Image_Classifier_DW_mult_tc_15)
+                                                          0.00       1.42 f
+  neuron_9/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][25]/D (DFFARX1_RVT)
+                                                          0.00       1.42 f
+  data arrival time                                                  1.42
+
+  clock clk (rise edge)                                   2.00       2.00
+  clock network delay (ideal)                             0.00       2.00
+  clock uncertainty                                      -0.10       1.90
+  neuron_9/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][25]/CLK (DFFARX1_RVT)
+                                                          0.00       1.90 r
+  library setup time                                     -0.03       1.87
+  data required time                                                 1.87
+  --------------------------------------------------------------------------
+  data required time                                                 1.87
+  data arrival time                                                 -1.42
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.46
+
+
+  Startpoint: R_1078 (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: neuron_1/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][25]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Image_Classifier   1000000               saed32rvt_tt1p05v25c
+  Image_Classifier_DW_mult_tc_143
+                     8000                  saed32rvt_tt1p05v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  R_1078/CLK (DFFARX1_RVT)                                0.00 #     0.00 r
+  R_1078/Q (DFFARX1_RVT)                                  0.09       0.09 f
+  U107855/Y (OR4X1_RVT)                                   0.10       0.19 f
+  mult_x_364/a[4] (Image_Classifier_DW_mult_tc_143)       0.00       0.19 f
+  mult_x_364/U318/Y (AND2X1_RVT)                          0.04       0.24 f
+  mult_x_364/U101/SO (HADDX1_RVT)                         0.06       0.29 r
+  mult_x_364/U99/S (FADDX1_RVT)                           0.08       0.38 f
+  mult_x_364/U98/S (FADDX1_RVT)                           0.09       0.46 r
+  mult_x_364/U18/CO (FADDX1_RVT)                          0.06       0.52 r
+  mult_x_364/U17/CO (FADDX1_RVT)                          0.05       0.57 r
+  mult_x_364/U16/CO (FADDX1_RVT)                          0.05       0.63 r
+  mult_x_364/U15/CO (FADDX1_RVT)                          0.05       0.68 r
+  mult_x_364/U14/CO (FADDX1_RVT)                          0.05       0.74 r
+  mult_x_364/U13/CO (FADDX1_RVT)                          0.05       0.79 r
+  mult_x_364/U12/CO (FADDX1_RVT)                          0.05       0.84 r
+  mult_x_364/U11/CO (FADDX1_RVT)                          0.05       0.90 r
+  mult_x_364/U10/CO (FADDX1_RVT)                          0.05       0.95 r
+  mult_x_364/U9/CO (FADDX1_RVT)                           0.05       1.01 r
+  mult_x_364/U8/CO (FADDX1_RVT)                           0.05       1.06 r
+  mult_x_364/U7/CO (FADDX1_RVT)                           0.05       1.12 r
+  mult_x_364/U6/CO (FADDX1_RVT)                           0.05       1.17 r
+  mult_x_364/U5/CO (FADDX1_RVT)                           0.05       1.22 r
+  mult_x_364/U4/CO (FADDX1_RVT)                           0.05       1.28 r
+  mult_x_364/U3/CO (FADDX1_RVT)                           0.06       1.34 r
+  mult_x_364/U255/S (FADDX1_RVT)                          0.08       1.42 f
+  mult_x_364/product[25] (Image_Classifier_DW_mult_tc_143)
+                                                          0.00       1.42 f
+  neuron_1/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][25]/D (DFFARX1_RVT)
+                                                          0.00       1.42 f
+  data arrival time                                                  1.42
+
+  clock clk (rise edge)                                   2.00       2.00
+  clock network delay (ideal)                             0.00       2.00
+  clock uncertainty                                      -0.10       1.90
+  neuron_1/mult_0/Multiplier_25b_18f_block.multOut_block/GenBlock.theDelay/delayline_reg[0][25]/CLK (DFFARX1_RVT)
+                                                          0.00       1.90 r
+  library setup time                                     -0.03       1.87
+  data required time                                                 1.87
+  --------------------------------------------------------------------------
+  data required time                                                 1.87
+  data arrival time                                                 -1.42
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.46
+
+
+1

@@ -1,0 +1,837 @@
+ 
+****************************************
+Report : resources
+Design : Image_Classifier
+Version: G-2012.06-SP1
+Date   : Thu Dec  2 00:33:31 2021
+****************************************
+
+
+Resource Report for this hierarchy in file ./Image_Classifier.v
+=============================================================================
+| Cell           | Module         | Parameters | Contained Operations       |
+=============================================================================
+| lt_x_1         | DW_cmp         | width=6    | lt_9860                    |
+| add_x_2        | DW01_inc       | width=6    | add_9861                   |
+| mult_x_348     | DW_mult_tc     | a_width=10 | neuron_0/mult_0/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_349     | DW_mult_tc     | a_width=10 | neuron_0/mult_1/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_350     | DW_mult_tc     | a_width=10 | neuron_0/mult_2/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_351     | DW_mult_tc     | a_width=10 | neuron_0/mult_3/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_352     | DW_mult_tc     | a_width=10 | neuron_0/mult_4/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_353     | DW_mult_tc     | a_width=10 | neuron_0/mult_5/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_354     | DW_mult_tc     | a_width=10 | neuron_0/mult_6/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_355     | DW_mult_tc     | a_width=10 | neuron_0/mult_7/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_356     | DW_mult_tc     | a_width=10 | neuron_0/mult_8/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_357     | DW_mult_tc     | a_width=10 | neuron_0/mult_9/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_358     | DW_mult_tc     | a_width=10 | neuron_0/mult_10/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_359     | DW_mult_tc     | a_width=10 | neuron_0/mult_11/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_360     | DW_mult_tc     | a_width=10 | neuron_0/mult_12/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_361     | DW_mult_tc     | a_width=10 | neuron_0/mult_13/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_362     | DW_mult_tc     | a_width=10 | neuron_0/mult_14/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_363     | DW_mult_tc     | a_width=10 | neuron_0/mult_15/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_364     | DW_mult_tc     | a_width=10 | neuron_1/mult_0/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_365     | DW_mult_tc     | a_width=10 | neuron_1/mult_1/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_366     | DW_mult_tc     | a_width=10 | neuron_1/mult_2/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_367     | DW_mult_tc     | a_width=10 | neuron_1/mult_3/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_368     | DW_mult_tc     | a_width=10 | neuron_1/mult_4/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_369     | DW_mult_tc     | a_width=10 | neuron_1/mult_5/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_370     | DW_mult_tc     | a_width=10 | neuron_1/mult_6/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_371     | DW_mult_tc     | a_width=10 | neuron_1/mult_7/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_372     | DW_mult_tc     | a_width=10 | neuron_1/mult_8/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_373     | DW_mult_tc     | a_width=10 | neuron_1/mult_9/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_374     | DW_mult_tc     | a_width=10 | neuron_1/mult_10/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_375     | DW_mult_tc     | a_width=10 | neuron_1/mult_11/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_376     | DW_mult_tc     | a_width=10 | neuron_1/mult_12/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_377     | DW_mult_tc     | a_width=10 | neuron_1/mult_13/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_378     | DW_mult_tc     | a_width=10 | neuron_1/mult_14/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_379     | DW_mult_tc     | a_width=10 | neuron_1/mult_15/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_380     | DW_mult_tc     | a_width=10 | neuron_2/mult_0/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_381     | DW_mult_tc     | a_width=10 | neuron_2/mult_1/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_382     | DW_mult_tc     | a_width=10 | neuron_2/mult_2/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_383     | DW_mult_tc     | a_width=10 | neuron_2/mult_3/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_384     | DW_mult_tc     | a_width=10 | neuron_2/mult_4/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_385     | DW_mult_tc     | a_width=10 | neuron_2/mult_5/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_386     | DW_mult_tc     | a_width=10 | neuron_2/mult_6/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_387     | DW_mult_tc     | a_width=10 | neuron_2/mult_7/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_388     | DW_mult_tc     | a_width=10 | neuron_2/mult_8/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_389     | DW_mult_tc     | a_width=10 | neuron_2/mult_9/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_390     | DW_mult_tc     | a_width=10 | neuron_2/mult_10/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_391     | DW_mult_tc     | a_width=10 | neuron_2/mult_11/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_392     | DW_mult_tc     | a_width=10 | neuron_2/mult_12/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_393     | DW_mult_tc     | a_width=10 | neuron_2/mult_13/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_394     | DW_mult_tc     | a_width=10 | neuron_2/mult_14/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_395     | DW_mult_tc     | a_width=10 | neuron_2/mult_15/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_396     | DW_mult_tc     | a_width=10 | neuron_3/mult_0/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_397     | DW_mult_tc     | a_width=10 | neuron_3/mult_1/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_398     | DW_mult_tc     | a_width=10 | neuron_3/mult_2/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_399     | DW_mult_tc     | a_width=10 | neuron_3/mult_3/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_400     | DW_mult_tc     | a_width=10 | neuron_3/mult_4/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_401     | DW_mult_tc     | a_width=10 | neuron_3/mult_5/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_402     | DW_mult_tc     | a_width=10 | neuron_3/mult_6/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_403     | DW_mult_tc     | a_width=10 | neuron_3/mult_7/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_404     | DW_mult_tc     | a_width=10 | neuron_3/mult_8/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_405     | DW_mult_tc     | a_width=10 | neuron_3/mult_9/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_406     | DW_mult_tc     | a_width=10 | neuron_3/mult_10/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_407     | DW_mult_tc     | a_width=10 | neuron_3/mult_11/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_408     | DW_mult_tc     | a_width=10 | neuron_3/mult_12/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_409     | DW_mult_tc     | a_width=10 | neuron_3/mult_13/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_410     | DW_mult_tc     | a_width=10 | neuron_3/mult_14/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_411     | DW_mult_tc     | a_width=10 | neuron_3/mult_15/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_412     | DW_mult_tc     | a_width=10 | neuron_4/mult_0/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_413     | DW_mult_tc     | a_width=10 | neuron_4/mult_1/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_414     | DW_mult_tc     | a_width=10 | neuron_4/mult_2/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_415     | DW_mult_tc     | a_width=10 | neuron_4/mult_3/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_416     | DW_mult_tc     | a_width=10 | neuron_4/mult_4/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_417     | DW_mult_tc     | a_width=10 | neuron_4/mult_5/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_418     | DW_mult_tc     | a_width=10 | neuron_4/mult_6/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_419     | DW_mult_tc     | a_width=10 | neuron_4/mult_7/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_420     | DW_mult_tc     | a_width=10 | neuron_4/mult_8/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_421     | DW_mult_tc     | a_width=10 | neuron_4/mult_9/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_422     | DW_mult_tc     | a_width=10 | neuron_4/mult_10/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_423     | DW_mult_tc     | a_width=10 | neuron_4/mult_11/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_424     | DW_mult_tc     | a_width=10 | neuron_4/mult_12/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_425     | DW_mult_tc     | a_width=10 | neuron_4/mult_13/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_426     | DW_mult_tc     | a_width=10 | neuron_4/mult_14/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_427     | DW_mult_tc     | a_width=10 | neuron_4/mult_15/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_428     | DW_mult_tc     | a_width=10 | neuron_5/mult_0/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_429     | DW_mult_tc     | a_width=10 | neuron_5/mult_1/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_430     | DW_mult_tc     | a_width=10 | neuron_5/mult_2/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_431     | DW_mult_tc     | a_width=10 | neuron_5/mult_3/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_432     | DW_mult_tc     | a_width=10 | neuron_5/mult_4/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_433     | DW_mult_tc     | a_width=10 | neuron_5/mult_5/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_434     | DW_mult_tc     | a_width=10 | neuron_5/mult_6/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_435     | DW_mult_tc     | a_width=10 | neuron_5/mult_7/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_436     | DW_mult_tc     | a_width=10 | neuron_5/mult_8/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_437     | DW_mult_tc     | a_width=10 | neuron_5/mult_9/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_438     | DW_mult_tc     | a_width=10 | neuron_5/mult_10/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_439     | DW_mult_tc     | a_width=10 | neuron_5/mult_11/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_440     | DW_mult_tc     | a_width=10 | neuron_5/mult_12/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_441     | DW_mult_tc     | a_width=10 | neuron_5/mult_13/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_442     | DW_mult_tc     | a_width=10 | neuron_5/mult_14/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_443     | DW_mult_tc     | a_width=10 | neuron_5/mult_15/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_444     | DW_mult_tc     | a_width=10 | neuron_6/mult_0/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_445     | DW_mult_tc     | a_width=10 | neuron_6/mult_1/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_446     | DW_mult_tc     | a_width=10 | neuron_6/mult_2/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_447     | DW_mult_tc     | a_width=10 | neuron_6/mult_3/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_448     | DW_mult_tc     | a_width=10 | neuron_6/mult_4/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_449     | DW_mult_tc     | a_width=10 | neuron_6/mult_5/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_450     | DW_mult_tc     | a_width=10 | neuron_6/mult_6/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_451     | DW_mult_tc     | a_width=10 | neuron_6/mult_7/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_452     | DW_mult_tc     | a_width=10 | neuron_6/mult_8/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_453     | DW_mult_tc     | a_width=10 | neuron_6/mult_9/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_454     | DW_mult_tc     | a_width=10 | neuron_6/mult_10/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_455     | DW_mult_tc     | a_width=10 | neuron_6/mult_11/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_456     | DW_mult_tc     | a_width=10 | neuron_6/mult_12/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_457     | DW_mult_tc     | a_width=10 | neuron_6/mult_13/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_458     | DW_mult_tc     | a_width=10 | neuron_6/mult_14/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_459     | DW_mult_tc     | a_width=10 | neuron_6/mult_15/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_460     | DW_mult_tc     | a_width=10 | neuron_7/mult_0/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_461     | DW_mult_tc     | a_width=10 | neuron_7/mult_1/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_462     | DW_mult_tc     | a_width=10 | neuron_7/mult_2/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_463     | DW_mult_tc     | a_width=10 | neuron_7/mult_3/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_464     | DW_mult_tc     | a_width=10 | neuron_7/mult_4/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_465     | DW_mult_tc     | a_width=10 | neuron_7/mult_5/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_466     | DW_mult_tc     | a_width=10 | neuron_7/mult_6/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_467     | DW_mult_tc     | a_width=10 | neuron_7/mult_7/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_468     | DW_mult_tc     | a_width=10 | neuron_7/mult_8/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_469     | DW_mult_tc     | a_width=10 | neuron_7/mult_9/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_470     | DW_mult_tc     | a_width=10 | neuron_7/mult_10/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_471     | DW_mult_tc     | a_width=10 | neuron_7/mult_11/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_472     | DW_mult_tc     | a_width=10 | neuron_7/mult_12/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_473     | DW_mult_tc     | a_width=10 | neuron_7/mult_13/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_474     | DW_mult_tc     | a_width=10 | neuron_7/mult_14/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_475     | DW_mult_tc     | a_width=10 | neuron_7/mult_15/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_476     | DW_mult_tc     | a_width=10 | neuron_8/mult_0/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_477     | DW_mult_tc     | a_width=10 | neuron_8/mult_1/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_478     | DW_mult_tc     | a_width=10 | neuron_8/mult_2/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_479     | DW_mult_tc     | a_width=10 | neuron_8/mult_3/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_480     | DW_mult_tc     | a_width=10 | neuron_8/mult_4/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_481     | DW_mult_tc     | a_width=10 | neuron_8/mult_5/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_482     | DW_mult_tc     | a_width=10 | neuron_8/mult_6/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_483     | DW_mult_tc     | a_width=10 | neuron_8/mult_7/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_484     | DW_mult_tc     | a_width=10 | neuron_8/mult_8/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_485     | DW_mult_tc     | a_width=10 | neuron_8/mult_9/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_486     | DW_mult_tc     | a_width=10 | neuron_8/mult_10/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_487     | DW_mult_tc     | a_width=10 | neuron_8/mult_11/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_488     | DW_mult_tc     | a_width=10 | neuron_8/mult_12/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_489     | DW_mult_tc     | a_width=10 | neuron_8/mult_13/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_490     | DW_mult_tc     | a_width=10 | neuron_8/mult_14/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_491     | DW_mult_tc     | a_width=10 | neuron_8/mult_15/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_492     | DW_mult_tc     | a_width=10 | neuron_9/mult_0/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_493     | DW_mult_tc     | a_width=10 | neuron_9/mult_1/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_494     | DW_mult_tc     | a_width=10 | neuron_9/mult_2/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_495     | DW_mult_tc     | a_width=10 | neuron_9/mult_3/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_496     | DW_mult_tc     | a_width=10 | neuron_9/mult_4/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_497     | DW_mult_tc     | a_width=10 | neuron_9/mult_5/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_498     | DW_mult_tc     | a_width=10 | neuron_9/mult_6/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_499     | DW_mult_tc     | a_width=10 | neuron_9/mult_7/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_500     | DW_mult_tc     | a_width=10 | neuron_9/mult_8/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_501     | DW_mult_tc     | a_width=10 | neuron_9/mult_9/mult_54    |
+|                |                | b_width=19 |                            |
+| mult_x_502     | DW_mult_tc     | a_width=10 | neuron_9/mult_10/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_503     | DW_mult_tc     | a_width=10 | neuron_9/mult_11/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_504     | DW_mult_tc     | a_width=10 | neuron_9/mult_12/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_505     | DW_mult_tc     | a_width=10 | neuron_9/mult_13/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_506     | DW_mult_tc     | a_width=10 | neuron_9/mult_14/mult_54   |
+|                |                | b_width=19 |                            |
+| mult_x_507     | DW_mult_tc     | a_width=10 | neuron_9/mult_15/mult_54   |
+|                |                | b_width=19 |                            |
+| add_x_828      | DW01_add       | width=27   | neuron_0/adder_0_0/add_46  |
+| add_x_829      | DW01_add       | width=27   | neuron_0/adder_0_1/add_46  |
+| add_x_830      | DW01_add       | width=27   | neuron_0/adder_0_2/add_46  |
+| add_x_831      | DW01_add       | width=27   | neuron_0/adder_0_3/add_46  |
+| add_x_832      | DW01_add       | width=27   | neuron_0/adder_0_4/add_46  |
+| add_x_833      | DW01_add       | width=27   | neuron_0/adder_0_5/add_46  |
+| add_x_834      | DW01_add       | width=27   | neuron_0/adder_0_6/add_46  |
+| add_x_835      | DW01_add       | width=27   | neuron_0/adder_0_7/add_46  |
+| add_x_836      | DW01_add       | width=27   | neuron_0/adder_1_0/add_46  |
+| add_x_837      | DW01_add       | width=27   | neuron_0/adder_1_1/add_46  |
+| add_x_838      | DW01_add       | width=27   | neuron_0/adder_1_2/add_46  |
+| add_x_839      | DW01_add       | width=27   | neuron_0/adder_1_3/add_46  |
+| add_x_840      | DW01_add       | width=27   | neuron_0/adder_2_0/add_46  |
+| add_x_841      | DW01_add       | width=27   | neuron_0/adder_2_1/add_46  |
+| add_x_842      | DW01_add       | width=27   | neuron_0/adder_3_0/add_46  |
+| add_x_843      | DW01_add       | width=27   | neuron_0/acc/add_46        |
+| add_x_844      | DW01_add       | width=27   | neuron_1/adder_0_0/add_46  |
+| add_x_845      | DW01_add       | width=27   | neuron_1/adder_0_1/add_46  |
+| add_x_846      | DW01_add       | width=27   | neuron_1/adder_0_2/add_46  |
+| add_x_847      | DW01_add       | width=27   | neuron_1/adder_0_3/add_46  |
+| add_x_848      | DW01_add       | width=27   | neuron_1/adder_0_4/add_46  |
+| add_x_849      | DW01_add       | width=27   | neuron_1/adder_0_5/add_46  |
+| add_x_850      | DW01_add       | width=27   | neuron_1/adder_0_6/add_46  |
+| add_x_851      | DW01_add       | width=27   | neuron_1/adder_0_7/add_46  |
+| add_x_852      | DW01_add       | width=27   | neuron_1/adder_1_0/add_46  |
+| add_x_853      | DW01_add       | width=27   | neuron_1/adder_1_1/add_46  |
+| add_x_854      | DW01_add       | width=27   | neuron_1/adder_1_2/add_46  |
+| add_x_855      | DW01_add       | width=27   | neuron_1/adder_1_3/add_46  |
+| add_x_856      | DW01_add       | width=27   | neuron_1/adder_2_0/add_46  |
+| add_x_857      | DW01_add       | width=27   | neuron_1/adder_2_1/add_46  |
+| add_x_858      | DW01_add       | width=27   | neuron_1/adder_3_0/add_46  |
+| add_x_859      | DW01_add       | width=27   | neuron_1/acc/add_46        |
+| add_x_860      | DW01_add       | width=27   | neuron_2/adder_0_0/add_46  |
+| add_x_861      | DW01_add       | width=27   | neuron_2/adder_0_1/add_46  |
+| add_x_862      | DW01_add       | width=27   | neuron_2/adder_0_2/add_46  |
+| add_x_863      | DW01_add       | width=27   | neuron_2/adder_0_3/add_46  |
+| add_x_864      | DW01_add       | width=27   | neuron_2/adder_0_4/add_46  |
+| add_x_865      | DW01_add       | width=27   | neuron_2/adder_0_5/add_46  |
+| add_x_866      | DW01_add       | width=27   | neuron_2/adder_0_6/add_46  |
+| add_x_867      | DW01_add       | width=27   | neuron_2/adder_0_7/add_46  |
+| add_x_868      | DW01_add       | width=27   | neuron_2/adder_1_0/add_46  |
+| add_x_869      | DW01_add       | width=27   | neuron_2/adder_1_1/add_46  |
+| add_x_870      | DW01_add       | width=27   | neuron_2/adder_1_2/add_46  |
+| add_x_871      | DW01_add       | width=27   | neuron_2/adder_1_3/add_46  |
+| add_x_872      | DW01_add       | width=27   | neuron_2/adder_2_0/add_46  |
+| add_x_873      | DW01_add       | width=27   | neuron_2/adder_2_1/add_46  |
+| add_x_874      | DW01_add       | width=27   | neuron_2/adder_3_0/add_46  |
+| add_x_875      | DW01_add       | width=27   | neuron_2/acc/add_46        |
+| add_x_876      | DW01_add       | width=27   | neuron_3/adder_0_0/add_46  |
+| add_x_877      | DW01_add       | width=27   | neuron_3/adder_0_1/add_46  |
+| add_x_878      | DW01_add       | width=27   | neuron_3/adder_0_2/add_46  |
+| add_x_879      | DW01_add       | width=27   | neuron_3/adder_0_3/add_46  |
+| add_x_880      | DW01_add       | width=27   | neuron_3/adder_0_4/add_46  |
+| add_x_881      | DW01_add       | width=27   | neuron_3/adder_0_5/add_46  |
+| add_x_882      | DW01_add       | width=27   | neuron_3/adder_0_6/add_46  |
+| add_x_883      | DW01_add       | width=27   | neuron_3/adder_0_7/add_46  |
+| add_x_884      | DW01_add       | width=27   | neuron_3/adder_1_0/add_46  |
+| add_x_885      | DW01_add       | width=27   | neuron_3/adder_1_1/add_46  |
+| add_x_886      | DW01_add       | width=27   | neuron_3/adder_1_2/add_46  |
+| add_x_887      | DW01_add       | width=27   | neuron_3/adder_1_3/add_46  |
+| add_x_888      | DW01_add       | width=27   | neuron_3/adder_2_0/add_46  |
+| add_x_889      | DW01_add       | width=27   | neuron_3/adder_2_1/add_46  |
+| add_x_890      | DW01_add       | width=27   | neuron_3/adder_3_0/add_46  |
+| add_x_891      | DW01_add       | width=27   | neuron_3/acc/add_46        |
+| add_x_892      | DW01_add       | width=27   | neuron_4/adder_0_0/add_46  |
+| add_x_893      | DW01_add       | width=27   | neuron_4/adder_0_1/add_46  |
+| add_x_894      | DW01_add       | width=27   | neuron_4/adder_0_2/add_46  |
+| add_x_895      | DW01_add       | width=27   | neuron_4/adder_0_3/add_46  |
+| add_x_896      | DW01_add       | width=27   | neuron_4/adder_0_4/add_46  |
+| add_x_897      | DW01_add       | width=27   | neuron_4/adder_0_5/add_46  |
+| add_x_898      | DW01_add       | width=27   | neuron_4/adder_0_6/add_46  |
+| add_x_899      | DW01_add       | width=27   | neuron_4/adder_0_7/add_46  |
+| add_x_900      | DW01_add       | width=27   | neuron_4/adder_1_0/add_46  |
+| add_x_901      | DW01_add       | width=27   | neuron_4/adder_1_1/add_46  |
+| add_x_902      | DW01_add       | width=27   | neuron_4/adder_1_2/add_46  |
+| add_x_903      | DW01_add       | width=27   | neuron_4/adder_1_3/add_46  |
+| add_x_904      | DW01_add       | width=27   | neuron_4/adder_2_0/add_46  |
+| add_x_905      | DW01_add       | width=27   | neuron_4/adder_2_1/add_46  |
+| add_x_906      | DW01_add       | width=27   | neuron_4/adder_3_0/add_46  |
+| add_x_907      | DW01_add       | width=27   | neuron_4/acc/add_46        |
+| add_x_908      | DW01_add       | width=27   | neuron_5/adder_0_0/add_46  |
+| add_x_909      | DW01_add       | width=27   | neuron_5/adder_0_1/add_46  |
+| add_x_910      | DW01_add       | width=27   | neuron_5/adder_0_2/add_46  |
+| add_x_911      | DW01_add       | width=27   | neuron_5/adder_0_3/add_46  |
+| add_x_912      | DW01_add       | width=27   | neuron_5/adder_0_4/add_46  |
+| add_x_913      | DW01_add       | width=27   | neuron_5/adder_0_5/add_46  |
+| add_x_914      | DW01_add       | width=27   | neuron_5/adder_0_6/add_46  |
+| add_x_915      | DW01_add       | width=27   | neuron_5/adder_0_7/add_46  |
+| add_x_916      | DW01_add       | width=27   | neuron_5/adder_1_0/add_46  |
+| add_x_917      | DW01_add       | width=27   | neuron_5/adder_1_1/add_46  |
+| add_x_918      | DW01_add       | width=27   | neuron_5/adder_1_2/add_46  |
+| add_x_919      | DW01_add       | width=27   | neuron_5/adder_1_3/add_46  |
+| add_x_920      | DW01_add       | width=27   | neuron_5/adder_2_0/add_46  |
+| add_x_921      | DW01_add       | width=27   | neuron_5/adder_2_1/add_46  |
+| add_x_922      | DW01_add       | width=27   | neuron_5/adder_3_0/add_46  |
+| add_x_923      | DW01_add       | width=27   | neuron_5/acc/add_46        |
+| add_x_924      | DW01_add       | width=27   | neuron_6/adder_0_0/add_46  |
+| add_x_925      | DW01_add       | width=27   | neuron_6/adder_0_1/add_46  |
+| add_x_926      | DW01_add       | width=27   | neuron_6/adder_0_2/add_46  |
+| add_x_927      | DW01_add       | width=27   | neuron_6/adder_0_3/add_46  |
+| add_x_928      | DW01_add       | width=27   | neuron_6/adder_0_4/add_46  |
+| add_x_929      | DW01_add       | width=27   | neuron_6/adder_0_5/add_46  |
+| add_x_930      | DW01_add       | width=27   | neuron_6/adder_0_6/add_46  |
+| add_x_931      | DW01_add       | width=27   | neuron_6/adder_0_7/add_46  |
+| add_x_932      | DW01_add       | width=27   | neuron_6/adder_1_0/add_46  |
+| add_x_933      | DW01_add       | width=27   | neuron_6/adder_1_1/add_46  |
+| add_x_934      | DW01_add       | width=27   | neuron_6/adder_1_2/add_46  |
+| add_x_935      | DW01_add       | width=27   | neuron_6/adder_1_3/add_46  |
+| add_x_936      | DW01_add       | width=27   | neuron_6/adder_2_0/add_46  |
+| add_x_937      | DW01_add       | width=27   | neuron_6/adder_2_1/add_46  |
+| add_x_938      | DW01_add       | width=27   | neuron_6/adder_3_0/add_46  |
+| add_x_939      | DW01_add       | width=27   | neuron_6/acc/add_46        |
+| add_x_940      | DW01_add       | width=27   | neuron_7/adder_0_0/add_46  |
+| add_x_941      | DW01_add       | width=27   | neuron_7/adder_0_1/add_46  |
+| add_x_942      | DW01_add       | width=27   | neuron_7/adder_0_2/add_46  |
+| add_x_943      | DW01_add       | width=27   | neuron_7/adder_0_3/add_46  |
+| add_x_944      | DW01_add       | width=27   | neuron_7/adder_0_4/add_46  |
+| add_x_945      | DW01_add       | width=27   | neuron_7/adder_0_5/add_46  |
+| add_x_946      | DW01_add       | width=27   | neuron_7/adder_0_6/add_46  |
+| add_x_947      | DW01_add       | width=27   | neuron_7/adder_0_7/add_46  |
+| add_x_948      | DW01_add       | width=27   | neuron_7/adder_1_0/add_46  |
+| add_x_949      | DW01_add       | width=27   | neuron_7/adder_1_1/add_46  |
+| add_x_950      | DW01_add       | width=27   | neuron_7/adder_1_2/add_46  |
+| add_x_951      | DW01_add       | width=27   | neuron_7/adder_1_3/add_46  |
+| add_x_952      | DW01_add       | width=27   | neuron_7/adder_2_0/add_46  |
+| add_x_953      | DW01_add       | width=27   | neuron_7/adder_2_1/add_46  |
+| add_x_954      | DW01_add       | width=27   | neuron_7/adder_3_0/add_46  |
+| add_x_955      | DW01_add       | width=27   | neuron_7/acc/add_46        |
+| add_x_956      | DW01_add       | width=27   | neuron_8/adder_0_0/add_46  |
+| add_x_957      | DW01_add       | width=27   | neuron_8/adder_0_1/add_46  |
+| add_x_958      | DW01_add       | width=27   | neuron_8/adder_0_2/add_46  |
+| add_x_959      | DW01_add       | width=27   | neuron_8/adder_0_3/add_46  |
+| add_x_960      | DW01_add       | width=27   | neuron_8/adder_0_4/add_46  |
+| add_x_961      | DW01_add       | width=27   | neuron_8/adder_0_5/add_46  |
+| add_x_962      | DW01_add       | width=27   | neuron_8/adder_0_6/add_46  |
+| add_x_963      | DW01_add       | width=27   | neuron_8/adder_0_7/add_46  |
+| add_x_964      | DW01_add       | width=27   | neuron_8/adder_1_0/add_46  |
+| add_x_965      | DW01_add       | width=27   | neuron_8/adder_1_1/add_46  |
+| add_x_966      | DW01_add       | width=27   | neuron_8/adder_1_2/add_46  |
+| add_x_967      | DW01_add       | width=27   | neuron_8/adder_1_3/add_46  |
+| add_x_968      | DW01_add       | width=27   | neuron_8/adder_2_0/add_46  |
+| add_x_969      | DW01_add       | width=27   | neuron_8/adder_2_1/add_46  |
+| add_x_970      | DW01_add       | width=27   | neuron_8/adder_3_0/add_46  |
+| add_x_971      | DW01_add       | width=27   | neuron_8/acc/add_46        |
+| add_x_972      | DW01_add       | width=27   | neuron_9/adder_0_0/add_46  |
+| add_x_973      | DW01_add       | width=27   | neuron_9/adder_0_1/add_46  |
+| add_x_974      | DW01_add       | width=27   | neuron_9/adder_0_2/add_46  |
+| add_x_975      | DW01_add       | width=27   | neuron_9/adder_0_3/add_46  |
+| add_x_976      | DW01_add       | width=27   | neuron_9/adder_0_4/add_46  |
+| add_x_977      | DW01_add       | width=27   | neuron_9/adder_0_5/add_46  |
+| add_x_978      | DW01_add       | width=27   | neuron_9/adder_0_6/add_46  |
+| add_x_979      | DW01_add       | width=27   | neuron_9/adder_0_7/add_46  |
+| add_x_980      | DW01_add       | width=27   | neuron_9/adder_1_0/add_46  |
+| add_x_981      | DW01_add       | width=27   | neuron_9/adder_1_1/add_46  |
+| add_x_982      | DW01_add       | width=27   | neuron_9/adder_1_2/add_46  |
+| add_x_983      | DW01_add       | width=27   | neuron_9/adder_1_3/add_46  |
+| add_x_984      | DW01_add       | width=27   | neuron_9/adder_2_0/add_46  |
+| add_x_985      | DW01_add       | width=27   | neuron_9/adder_2_1/add_46  |
+| add_x_986      | DW01_add       | width=27   | neuron_9/adder_3_0/add_46  |
+| add_x_987      | DW01_add       | width=27   | neuron_9/acc/add_46        |
+| lt_x_1148      | DW_cmp         | width=4    | maxselect/lt_36            |
+| lt_x_1150      | DW_cmp         | width=26   | maxselect/lt_37            |
+| add_x_1149     | DW01_inc       | width=4    | maxselect/add_34           |
+|                |                |            | maxselect/add_40           |
+=============================================================================
+
+
+Implementation Report
+===============================================================================
+|                    |                  | Current            | Set            |
+| Cell               | Module           | Implementation     | Implementation |
+===============================================================================
+| mult_x_348         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_349         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_350         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_351         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_352         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_353         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_354         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_355         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_356         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_357         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_358         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_359         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_360         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_361         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_362         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_363         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_364         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_365         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_366         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_367         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_368         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_369         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_370         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_371         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_372         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_373         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_374         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_375         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_376         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_377         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_378         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_379         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_380         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_381         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_382         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_383         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_384         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_385         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_386         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_387         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_388         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_389         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_390         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_391         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_392         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_393         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_394         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_395         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_396         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_397         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_398         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_399         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_400         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_401         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_402         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_403         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_404         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_405         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_406         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_407         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_408         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_409         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_410         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_411         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_412         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_413         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_414         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_415         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_416         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_417         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_418         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_419         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_420         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_421         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_422         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_423         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_424         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_425         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_426         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_427         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_428         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_429         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_430         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_431         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_432         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_433         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_434         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_435         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_436         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_437         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_438         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_439         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_440         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_441         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_442         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_443         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_444         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_445         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_446         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_447         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_448         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_449         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_450         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_451         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_452         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_453         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_454         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_455         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_456         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_457         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_458         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_459         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_460         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_461         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_462         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_463         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_464         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_465         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_466         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_467         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_468         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_469         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_470         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_471         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_472         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_473         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_474         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_475         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_476         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_477         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_478         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_479         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_480         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_481         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_482         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_483         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_484         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_485         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_486         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_487         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_488         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_489         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_490         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_491         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_492         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_493         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_494         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_495         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_496         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_497         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_498         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_499         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_500         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_501         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_502         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_503         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_504         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_505         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_506         | DW_mult_tc       | apparch (area)     |                |
+| mult_x_507         | DW_mult_tc       | apparch (area)     |                |
+| add_x_828          | DW01_add         | apparch (area)     |                |
+| add_x_829          | DW01_add         | apparch (area)     |                |
+| add_x_830          | DW01_add         | apparch (area)     |                |
+| add_x_831          | DW01_add         | apparch (area)     |                |
+| add_x_832          | DW01_add         | apparch (area)     |                |
+| add_x_833          | DW01_add         | apparch (area)     |                |
+| add_x_834          | DW01_add         | apparch (area)     |                |
+| add_x_835          | DW01_add         | apparch (area)     |                |
+| add_x_836          | DW01_add         | apparch (area)     |                |
+| add_x_837          | DW01_add         | apparch (area)     |                |
+| add_x_838          | DW01_add         | apparch (area)     |                |
+| add_x_839          | DW01_add         | apparch (area)     |                |
+| add_x_840          | DW01_add         | apparch (area)     |                |
+| add_x_841          | DW01_add         | apparch (area)     |                |
+| add_x_842          | DW01_add         | apparch (area)     |                |
+| add_x_843          | DW01_add         | apparch (area)     |                |
+| add_x_844          | DW01_add         | apparch (area)     |                |
+| add_x_845          | DW01_add         | apparch (area)     |                |
+| add_x_846          | DW01_add         | apparch (area)     |                |
+| add_x_847          | DW01_add         | apparch (area)     |                |
+| add_x_848          | DW01_add         | apparch (area)     |                |
+| add_x_849          | DW01_add         | apparch (area)     |                |
+| add_x_850          | DW01_add         | apparch (area)     |                |
+| add_x_851          | DW01_add         | apparch (area)     |                |
+| add_x_852          | DW01_add         | apparch (area)     |                |
+| add_x_853          | DW01_add         | apparch (area)     |                |
+| add_x_854          | DW01_add         | apparch (area)     |                |
+| add_x_855          | DW01_add         | apparch (area)     |                |
+| add_x_856          | DW01_add         | apparch (area)     |                |
+| add_x_857          | DW01_add         | apparch (area)     |                |
+| add_x_858          | DW01_add         | apparch (area)     |                |
+| add_x_859          | DW01_add         | apparch (area)     |                |
+| add_x_860          | DW01_add         | apparch (area)     |                |
+| add_x_861          | DW01_add         | apparch (area)     |                |
+| add_x_862          | DW01_add         | apparch (area)     |                |
+| add_x_863          | DW01_add         | apparch (area)     |                |
+| add_x_864          | DW01_add         | apparch (area)     |                |
+| add_x_865          | DW01_add         | apparch (area)     |                |
+| add_x_866          | DW01_add         | apparch (area)     |                |
+| add_x_867          | DW01_add         | apparch (area)     |                |
+| add_x_868          | DW01_add         | apparch (area)     |                |
+| add_x_869          | DW01_add         | apparch (area)     |                |
+| add_x_870          | DW01_add         | apparch (area)     |                |
+| add_x_871          | DW01_add         | apparch (area)     |                |
+| add_x_872          | DW01_add         | apparch (area)     |                |
+| add_x_873          | DW01_add         | apparch (area)     |                |
+| add_x_874          | DW01_add         | apparch (area)     |                |
+| add_x_875          | DW01_add         | apparch (area)     |                |
+| add_x_876          | DW01_add         | apparch (area)     |                |
+| add_x_877          | DW01_add         | apparch (area)     |                |
+| add_x_878          | DW01_add         | apparch (area)     |                |
+| add_x_879          | DW01_add         | apparch (area)     |                |
+| add_x_880          | DW01_add         | apparch (area)     |                |
+| add_x_881          | DW01_add         | apparch (area)     |                |
+| add_x_882          | DW01_add         | apparch (area)     |                |
+| add_x_883          | DW01_add         | apparch (area)     |                |
+| add_x_884          | DW01_add         | apparch (area)     |                |
+| add_x_885          | DW01_add         | apparch (area)     |                |
+| add_x_886          | DW01_add         | apparch (area)     |                |
+| add_x_887          | DW01_add         | apparch (area)     |                |
+| add_x_888          | DW01_add         | apparch (area)     |                |
+| add_x_889          | DW01_add         | apparch (area)     |                |
+| add_x_890          | DW01_add         | apparch (area)     |                |
+| add_x_891          | DW01_add         | apparch (area)     |                |
+| add_x_892          | DW01_add         | apparch (area)     |                |
+| add_x_893          | DW01_add         | apparch (area)     |                |
+| add_x_894          | DW01_add         | apparch (area)     |                |
+| add_x_895          | DW01_add         | apparch (area)     |                |
+| add_x_896          | DW01_add         | apparch (area)     |                |
+| add_x_897          | DW01_add         | apparch (area)     |                |
+| add_x_898          | DW01_add         | apparch (area)     |                |
+| add_x_899          | DW01_add         | apparch (area)     |                |
+| add_x_900          | DW01_add         | apparch (area)     |                |
+| add_x_901          | DW01_add         | apparch (area)     |                |
+| add_x_902          | DW01_add         | apparch (area)     |                |
+| add_x_903          | DW01_add         | apparch (area)     |                |
+| add_x_904          | DW01_add         | apparch (area)     |                |
+| add_x_905          | DW01_add         | apparch (area)     |                |
+| add_x_906          | DW01_add         | apparch (area)     |                |
+| add_x_907          | DW01_add         | apparch (area)     |                |
+| add_x_908          | DW01_add         | apparch (area)     |                |
+| add_x_909          | DW01_add         | apparch (area)     |                |
+| add_x_910          | DW01_add         | apparch (area)     |                |
+| add_x_911          | DW01_add         | apparch (area)     |                |
+| add_x_912          | DW01_add         | apparch (area)     |                |
+| add_x_913          | DW01_add         | apparch (area)     |                |
+| add_x_914          | DW01_add         | apparch (area)     |                |
+| add_x_915          | DW01_add         | apparch (area)     |                |
+| add_x_916          | DW01_add         | apparch (area)     |                |
+| add_x_917          | DW01_add         | apparch (area)     |                |
+| add_x_918          | DW01_add         | apparch (area)     |                |
+| add_x_919          | DW01_add         | apparch (area)     |                |
+| add_x_920          | DW01_add         | apparch (area)     |                |
+| add_x_921          | DW01_add         | apparch (area)     |                |
+| add_x_922          | DW01_add         | apparch (area)     |                |
+| add_x_923          | DW01_add         | apparch (area)     |                |
+| add_x_924          | DW01_add         | apparch (area)     |                |
+| add_x_925          | DW01_add         | apparch (area)     |                |
+| add_x_926          | DW01_add         | apparch (area)     |                |
+| add_x_927          | DW01_add         | apparch (area)     |                |
+| add_x_928          | DW01_add         | apparch (area)     |                |
+| add_x_929          | DW01_add         | apparch (area)     |                |
+| add_x_930          | DW01_add         | apparch (area)     |                |
+| add_x_931          | DW01_add         | apparch (area)     |                |
+| add_x_932          | DW01_add         | apparch (area)     |                |
+| add_x_933          | DW01_add         | apparch (area)     |                |
+| add_x_934          | DW01_add         | apparch (area)     |                |
+| add_x_935          | DW01_add         | apparch (area)     |                |
+| add_x_936          | DW01_add         | apparch (area)     |                |
+| add_x_937          | DW01_add         | apparch (area)     |                |
+| add_x_938          | DW01_add         | apparch (area)     |                |
+| add_x_939          | DW01_add         | apparch (area)     |                |
+| add_x_940          | DW01_add         | apparch (area)     |                |
+| add_x_941          | DW01_add         | apparch (area)     |                |
+| add_x_942          | DW01_add         | apparch (area)     |                |
+| add_x_943          | DW01_add         | apparch (area)     |                |
+| add_x_944          | DW01_add         | apparch (area)     |                |
+| add_x_945          | DW01_add         | apparch (area)     |                |
+| add_x_946          | DW01_add         | apparch (area)     |                |
+| add_x_947          | DW01_add         | apparch (area)     |                |
+| add_x_948          | DW01_add         | apparch (area)     |                |
+| add_x_949          | DW01_add         | apparch (area)     |                |
+| add_x_950          | DW01_add         | apparch (area)     |                |
+| add_x_951          | DW01_add         | apparch (area)     |                |
+| add_x_952          | DW01_add         | apparch (area)     |                |
+| add_x_953          | DW01_add         | apparch (area)     |                |
+| add_x_954          | DW01_add         | apparch (area)     |                |
+| add_x_955          | DW01_add         | apparch (area)     |                |
+| add_x_956          | DW01_add         | apparch (area)     |                |
+| add_x_957          | DW01_add         | apparch (area)     |                |
+| add_x_958          | DW01_add         | apparch (area)     |                |
+| add_x_959          | DW01_add         | apparch (area)     |                |
+| add_x_960          | DW01_add         | apparch (area)     |                |
+| add_x_961          | DW01_add         | apparch (area)     |                |
+| add_x_962          | DW01_add         | apparch (area)     |                |
+| add_x_963          | DW01_add         | apparch (area)     |                |
+| add_x_964          | DW01_add         | apparch (area)     |                |
+| add_x_965          | DW01_add         | apparch (area)     |                |
+| add_x_966          | DW01_add         | apparch (area)     |                |
+| add_x_967          | DW01_add         | apparch (area)     |                |
+| add_x_968          | DW01_add         | apparch (area)     |                |
+| add_x_969          | DW01_add         | apparch (area)     |                |
+| add_x_970          | DW01_add         | apparch (area)     |                |
+| add_x_971          | DW01_add         | apparch (area)     |                |
+| add_x_972          | DW01_add         | apparch (area)     |                |
+| add_x_973          | DW01_add         | apparch (area)     |                |
+| add_x_974          | DW01_add         | apparch (area)     |                |
+| add_x_975          | DW01_add         | apparch (area)     |                |
+| add_x_976          | DW01_add         | apparch (area)     |                |
+| add_x_977          | DW01_add         | apparch (area)     |                |
+| add_x_978          | DW01_add         | apparch (area)     |                |
+| add_x_979          | DW01_add         | apparch (area)     |                |
+| add_x_980          | DW01_add         | apparch (area)     |                |
+| add_x_981          | DW01_add         | apparch (area)     |                |
+| add_x_982          | DW01_add         | apparch (area)     |                |
+| add_x_983          | DW01_add         | apparch (area)     |                |
+| add_x_984          | DW01_add         | apparch (area)     |                |
+| add_x_985          | DW01_add         | apparch (area)     |                |
+| add_x_986          | DW01_add         | apparch (area)     |                |
+| add_x_987          | DW01_add         | apparch (area)     |                |
+| lt_x_1150          | DW_cmp           | apparch (area)     |                |
+| lt_x_1             | DW_cmp           | apparch (area)     |                |
+| add_x_2            | DW01_inc         | apparch (area)     |                |
+| lt_x_1148          | DW_cmp           | apparch (area)     |                |
+| add_x_1149         | DW01_inc         | apparch (area)     |                |
+===============================================================================
+
+
+No multiplexors to report
+1

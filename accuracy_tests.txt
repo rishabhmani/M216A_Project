@@ -1,0 +1,24 @@
+Image_Classifier - No Changes:
+---------------------------------
+Tests 1 - 50000:
+	MATLAB: 888 Failed [82.24% accuracy]
+	MODELSIM: 904 Failed [81.92% accuracy]
+Tests 5000 - 10000:
+	MATLAB: 509 Failed [89.82% accuracy]
+	MODELSIM: 498 Failed [90.04% accuracy]
+
+Total:
+	MATLAB: 1397 Failed [86.03% accuracy]
+	MODELSIM: 1402 Failed [85.98% accuracy]
+
+
+Image_Classifier - PIX_WIDTH=8 WGT_WIDTH=15:
+---------------------------------
+Tests 1 - 5000:
+	MODELSIM: 962 Failed [80.76% accuracy]
+Tests 5000 - 10000:
+	MODELSIM: 503 Failed [89.94% accuracy]
+
+Total:
+	MODELSIM: 1465 Failed [85.35% accuracy]
+
